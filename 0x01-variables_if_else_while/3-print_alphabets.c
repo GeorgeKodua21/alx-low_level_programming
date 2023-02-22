@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - 'output a sentence with pus'
- * Return - Always 0 (success)
+ * Description: 'the program's description'
+ * Return: Always 0 (success)
  */
 int main(void)
 {
