@@ -7,7 +7,7 @@
 int main(void)
 {
 char n = 'a';
-while (n ,= 'z')
+while (n = 'z')
 {
 if (n == 'q' || n == 'a')
 {
