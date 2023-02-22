@@ -9,7 +9,7 @@ int main(void)
 char n = 'a';
 while (n <= 'z')
 {
-if (n == 'q' || n == 'a')
+if (n == 'q' || n == 'e')
 {
 n++;
 continue;
