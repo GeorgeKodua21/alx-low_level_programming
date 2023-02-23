@@ -1,20 +1,20 @@
-#include "_putchar.c"
+#include "main.h"
+#include <stdio.h>
 /**
- * main - Print "putchar" followed by a new line.
- * Description: You are not allowed to include standard libraries.
- * Return: 0
- */
+* main - check the code
+*
+* Return: Always 0.
+*/
 int main(void)
 {
-	char putchar[] = "_putchar";
-	int i = 0;
-
-	while (putchar[i] != '\0')
-	{
-		_putchar(putchar[i]);
-		i++;
-	}
-	_putchar('\n');
-
-	return (0);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+return (0);
 }
