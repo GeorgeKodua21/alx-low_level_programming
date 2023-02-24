@@ -8,24 +8,20 @@
 */
 int largest_number(int a, int b, int c)
 {
-if (a > b && a > c)
-{
-return (a);
-}
-else if (b > a && b > c)
-{
-return (b);
-}
-else if (c > a && c > b)
-{
-return (c);
-}
-else if (a == b && a == c)
-{
-return (a);
-}
-else
-{
-return (a);
-}
+	int largest;
+
+	if (a > b && a > c)
+	{
+	largest = a;
+	}
+	else if (b > c)
+	{
+	largest = b;
+	}
+	else
+	{
+	largest = c;
+	}
+
+	return (largest);
 }
