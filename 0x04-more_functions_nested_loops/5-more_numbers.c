@@ -12,9 +12,12 @@ for (a = 1; a <= 10; a++)
 {
 	for (b = 0; b <= 14; b++)
 	{
-		_putchar(48 + b);
+		if (b / 10)
+		{
+			_putchar('0' + b / 10);
+		}
+		_putchar('0' + b % 10);
 	}
-	_putchar(48 + a);
+	_putchar('\n');
 }
-_putchar('\n');
 }
